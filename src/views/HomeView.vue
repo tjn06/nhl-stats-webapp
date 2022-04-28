@@ -42,7 +42,6 @@
   section {
     margin-top: 7vh;
     display: flex;
-    /* justify-content: space-evenly; */
     flex-wrap: wrap;
   }
   h1 {

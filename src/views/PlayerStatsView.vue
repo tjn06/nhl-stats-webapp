@@ -211,10 +211,10 @@
       </div>
       <div class="row-info">
         <div class="spacing-info">
-          <span>Weigth:</span><span>{{ playerWeight }}</span>
+          <span>Weight:</span><span>{{ playerWeight }}</span>
         </div>
         <div class="spacing-info">
-          <span>Heigth:</span><span>{{ playerHeight }}</span>
+          <span>Height:</span><span>{{ playerHeight }}</span>
         </div>
       </div>
     </article>
