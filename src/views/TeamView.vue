@@ -95,19 +95,9 @@
 </template>
 
 <style scoped>
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*     border-bottom: 2px solid gray; */
-  }
   h1 {
-    margin: 0;
+    white-space: nowrap;
   }
-  /*   button {
-    width: 100px;
-    height: 25px;
-  } */
   li {
     list-style-type: square;
   }

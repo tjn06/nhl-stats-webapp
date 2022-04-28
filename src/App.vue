@@ -161,6 +161,9 @@
   h4 {
     font-family: 'Fugaz One', cursive;
   }
+  h2 {
+    height: 4.5rem;
+  }
 
   button {
     font-size: 1.2rem;
@@ -212,10 +215,12 @@
   }
   header {
     display: flex;
-    height: 4rem;
+    flex-wrap: wrap;
+    min-height: 4rem;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid rgb(255, 255, 255, 0.16);
+    margin-bottom: 0.3rem;
   }
 
   .gray {

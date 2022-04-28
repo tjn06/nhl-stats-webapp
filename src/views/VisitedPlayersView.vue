@@ -104,14 +104,11 @@
 </template>
 
 <style scoped>
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*  border-bottom: 2px solid gray; */
-  }
-  h1 {
+  /*   h1 {
     margin: 0;
+  } */
+  h1 {
+    white-space: nowrap;
   }
   li {
     list-style-type: square;

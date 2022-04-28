@@ -42,11 +42,16 @@
   section {
     margin-top: 7vh;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
   }
-
+  h1 {
+    white-space: nowrap;
+  }
   button {
+    width: 300px;
     font-size: 2.5rem;
     padding: 1rem;
+    margin: 10px;
   }
 </style>

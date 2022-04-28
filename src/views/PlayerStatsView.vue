@@ -281,14 +281,11 @@
 </template>
 
 <style scoped>
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* border-bottom: 2px solid gray; */
-  }
   h3 {
     margin: 0rem 0 3rem 0;
+  }
+  h1 {
+    white-space: nowrap;
   }
   .player-info {
     width: 100%;
