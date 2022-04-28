@@ -27,7 +27,7 @@ const mutations = {
   },
   actions = {
     addVisitedPlayers({ commit, state }, payload) {
-      console.log('payload', payload)
+      /*       console.log('payload', payload) */
       if (payload.isSwedish) {
         if (
           state.visitedSwedishPlayers.some((player) => player.id === payload.id)

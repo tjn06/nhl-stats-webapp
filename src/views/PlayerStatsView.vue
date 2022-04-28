@@ -42,7 +42,7 @@
             shots: 0
           }
           for (let i = 0; i < this.stats.length; i++) {
-            console.log('gamesdd' + this.stats[0][0].stat.games)
+            /*             console.log('games' + this.stats[0][0].stat.games) */
             totalStats.games += this.stats[i][0].stat.games
             totalStats.goals += this.stats[i][0].stat.goals
             totalStats.assists += this.stats[i][0].stat.assists
@@ -173,8 +173,8 @@
             isSwedish: this.info.nationality == 'SWE'
           })
 
-          console.log(this.stats[1])
-          console.log(playerData.playerInfo)
+          /*           console.log(this.stats[1])
+          console.log(playerData.playerInfo) */
         })
       }
     }

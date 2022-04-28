@@ -32,7 +32,7 @@
           let even = this.players.length % 2
           let split = this.players.length / 2
           if (this.players.length === 1) {
-            return { fa: 1, fb: 1 }
+            return { fa: 1, fb: 2 }
           } else if (even === 0) {
             return { fa: split, fb: split }
           } else {
@@ -54,6 +54,9 @@
             console.log('Playersroster', response)
             this.teamName = response.data.teams[0].name.toUpperCase()
             this.players = response.data.teams[0].roster.roster
+          })
+          .catch((error) => {
+            console.log(error)
           })
       }
     }

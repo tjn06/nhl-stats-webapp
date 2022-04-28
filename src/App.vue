@@ -10,8 +10,8 @@
           } else {
             this.$store.commit('setLastRoute', oldValue)
           }
-          console.log(' NEWRAPP ', newValue)
-          console.log('OLDRAPP ', oldValue)
+          /*           console.log(' NEWRAPP ', newValue)
+          console.log('OLDRAPP ', oldValue) */
         },
         { immediate: true }
       )
@@ -178,9 +178,6 @@
   button:focus {
     background: rgb(196, 196, 196, 0.3);
     color: white;
-  }
-
-  button:focus {
   }
 
   button:active {

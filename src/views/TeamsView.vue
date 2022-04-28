@@ -39,7 +39,7 @@
           let even = this.teams.length % 2
           let split = this.teams.length / 2
           if (this.teams.length === 1) {
-            return { fa: 1, fb: 1 }
+            return { fa: 1, fb: 2 }
           } else if (even === 0) {
             return { fa: split, fb: split }
           } else {
@@ -71,6 +71,9 @@
           .then((response) => {
             console.log('Teams', response)
             this.teams = this.filterConferenceTeams(response.data.teams)
+          })
+          .catch((error) => {
+            console.log(error)
           })
       }
     }

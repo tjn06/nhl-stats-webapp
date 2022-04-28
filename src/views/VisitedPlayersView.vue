@@ -26,7 +26,7 @@
           let even = this.players.length % 2
           let split = this.players.length / 2
           if (this.players.length === 1) {
-            return { fa: 1, fb: 1 }
+            return { fa: 1, fb: 2 }
           } else if (even === 0) {
             return { fa: split, fb: split }
           } else {
@@ -36,7 +36,7 @@
         return null
       },
       playersHeader: function () {
-        console.log('papapdda', this.$route.params.category)
+        /*         console.log('param cat', this.$route.params.category) */
         if (this.$route.params.category === 'all') {
           return 'ALL PLAYERS'
         } else if (this.$route.params.category === 'swe') {
@@ -46,7 +46,7 @@
         }
       },
       players: function () {
-        console.log('papapdda', this.$route.params.category)
+        /*         console.log('param cat', this.$route.params.category) */
         if (this.$route.params.category === 'all') {
           return this.$store.state.visitedPlayers
         } else if (this.$route.params.category === 'swe') {
