@@ -18,7 +18,7 @@
     created() {
       this.$watch(
         () => this.$route.params.conference,
-        (newValue, oldValue) => {
+        (newValue) => {
           /*           console.log('OLD ' + oldValue + ' NEW ' + newValue) */
           if (newValue) {
             this.getTeams(this.$route.params.teamId)

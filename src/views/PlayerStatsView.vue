@@ -112,7 +112,7 @@
     created() {
       this.$watch(
         () => this.$route.params.playerId,
-        (newValue, oldValue) => {
+        (newValue) => {
           /*           console.log('OLD ' + oldValue + ' NEW ' + newValue) */
           if (newValue) {
             this.getPlayerStats(this.$route.params.playerId)

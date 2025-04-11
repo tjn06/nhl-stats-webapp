@@ -9,6 +9,7 @@
     "plugin:vue/vue3-strongly-recommended"
   ],
   "root": true,
+  "ignorePatterns": ["dist/*"],
   "rules": {
     "vue/html-self-closing": [
       "warn",
